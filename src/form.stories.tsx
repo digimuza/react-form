@@ -70,13 +70,13 @@ function FormHandle(props: React.PropsWithChildren<{}>) {
 
 export const FormInput = () => {
 	return (
-		<UserEmailForm.form>
+		<UserEmailForm.Form>
 			<FormHandle>
-				<UserEmailForm.email></UserEmailForm.email>
-				<UserEmailForm.email2></UserEmailForm.email2>
-				<UserEmailForm.email3></UserEmailForm.email3>
+				<UserEmailForm.EmailField />
+				<UserEmailForm.Email3Field />
+				<UserEmailForm.EmailField />
 				<button type={'submit'}>Submit</button>
 			</FormHandle>
-		</UserEmailForm.form>
+		</UserEmailForm.Form>
 	)
 }
